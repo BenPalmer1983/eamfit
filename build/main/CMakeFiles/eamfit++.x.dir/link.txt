@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/eamfit++.x.dir/main.cpp.o -o /DATA/disk3/cloud/Code/cpp/eamfit++/bin/eamfit++.x  ../../lib/libconfigs.a ../../lib/libcore.a 
