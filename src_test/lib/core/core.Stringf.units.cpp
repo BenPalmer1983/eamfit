@@ -82,23 +82,6 @@ int main()
     // End test
     ut.end();
 
-
-    /*
-
-    std::cout << Assert::assert(1, 1) << std::endl;
-    std::cout << Assert::assert(1, 2) << std::endl;
-
-
-
-
-
-    static std::string upper(std::string string_in);
-    static std::string lower(std::string string_in);
-    static std::string trim_left(std::string string_in);
-    static std::string trim_right(std::string string_in);
-    static std::string trim(std::string string_in);
-    */
-
     return 0;
 }
 

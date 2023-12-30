@@ -11,6 +11,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cmath>
 /*****************************************************************************/
 
 
@@ -19,6 +20,7 @@ class Vec
 
 public:
 
+    Vec();
     Vec(double x, double y, double z);
 
     void set_x(double x);
@@ -26,6 +28,16 @@ public:
     void set_z(double z);
     void set_xyz(double x, double y, double z);
 
+    double const get_x();
+    double const get_y();
+    double const get_z();
+
+    void const display();
+
+    Vec operator+(Vec & rhs);
+    Vec operator-(Vec & rhs);
+    double operator|(Vec & rhs);
+    
 
 private:
 

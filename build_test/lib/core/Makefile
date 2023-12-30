@@ -144,6 +144,20 @@ core.Stringf.units.x/fast:
 	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Stringf.units.x.dir/build.make lib/core/CMakeFiles/core.Stringf.units.x.dir/build
 .PHONY : core.Stringf.units.x/fast
 
+# Convenience name for target.
+lib/core/CMakeFiles/core.Vec.units.x.dir/rule:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/core/CMakeFiles/core.Vec.units.x.dir/rule
+.PHONY : lib/core/CMakeFiles/core.Vec.units.x.dir/rule
+
+# Convenience name for target.
+core.Vec.units.x: lib/core/CMakeFiles/core.Vec.units.x.dir/rule
+.PHONY : core.Vec.units.x
+
+# fast build rule for target.
+core.Vec.units.x/fast:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Vec.units.x.dir/build.make lib/core/CMakeFiles/core.Vec.units.x.dir/build
+.PHONY : core.Vec.units.x/fast
+
 core.Stringf.units.o: core.Stringf.units.cpp.o
 .PHONY : core.Stringf.units.o
 
@@ -167,6 +181,30 @@ core.Stringf.units.s: core.Stringf.units.cpp.s
 core.Stringf.units.cpp.s:
 	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Stringf.units.x.dir/build.make lib/core/CMakeFiles/core.Stringf.units.x.dir/core.Stringf.units.cpp.s
 .PHONY : core.Stringf.units.cpp.s
+
+core.Vec.units.o: core.Vec.units.cpp.o
+.PHONY : core.Vec.units.o
+
+# target to build an object file
+core.Vec.units.cpp.o:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Vec.units.x.dir/build.make lib/core/CMakeFiles/core.Vec.units.x.dir/core.Vec.units.cpp.o
+.PHONY : core.Vec.units.cpp.o
+
+core.Vec.units.i: core.Vec.units.cpp.i
+.PHONY : core.Vec.units.i
+
+# target to preprocess a source file
+core.Vec.units.cpp.i:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Vec.units.x.dir/build.make lib/core/CMakeFiles/core.Vec.units.x.dir/core.Vec.units.cpp.i
+.PHONY : core.Vec.units.cpp.i
+
+core.Vec.units.s: core.Vec.units.cpp.s
+.PHONY : core.Vec.units.s
+
+# target to generate assembly for a file
+core.Vec.units.cpp.s:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Vec.units.x.dir/build.make lib/core/CMakeFiles/core.Vec.units.x.dir/core.Vec.units.cpp.s
+.PHONY : core.Vec.units.cpp.s
 
 core.dev.o: core.dev.cpp.o
 .PHONY : core.dev.o
@@ -201,10 +239,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... core.Stringf.units.x"
+	@echo "... core.Vec.units.x"
 	@echo "... core.dev.x"
 	@echo "... core.Stringf.units.o"
 	@echo "... core.Stringf.units.i"
 	@echo "... core.Stringf.units.s"
+	@echo "... core.Vec.units.o"
+	@echo "... core.Vec.units.i"
+	@echo "... core.Vec.units.s"
 	@echo "... core.dev.o"
 	@echo "... core.dev.i"
 	@echo "... core.dev.s"

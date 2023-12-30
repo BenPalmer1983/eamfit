@@ -3,7 +3,7 @@
 
 import os
 import subprocess
-
+import csv
 
 
 
@@ -20,10 +20,26 @@ class Tests:
         
         self.get_test_exec()
         
+        passed = True
+        
         os.chdir(self.wd)
         for i in range(len(self.test_bins)):
             test_bin = self.test_bins[i]
             subprocess.run(test_bin)
+            
+            with open(self.log_files[i], mode='r') as fh:
+                log_file = csv.reader(fh)
+                for line in log_file:
+                    passed = passed and (line[0] == "1")
+                    
+        print()
+        print("##########################################")
+        print("Overall Result:")
+        if(passed):
+            print("PASSED")
+        else:
+            print("FAILED")
+        print("##########################################")
     
     
     def get_test_exec(self):

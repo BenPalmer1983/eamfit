@@ -143,6 +143,19 @@ core.Stringf.units.x/fast:
 .PHONY : core.Stringf.units.x/fast
 
 #=============================================================================
+# Target rules for targets named core.Vec.units.x
+
+# Build rule for target.
+core.Vec.units.x: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core.Vec.units.x
+.PHONY : core.Vec.units.x
+
+# fast build rule for target.
+core.Vec.units.x/fast:
+	$(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Vec.units.x.dir/build.make lib/core/CMakeFiles/core.Vec.units.x.dir/build
+.PHONY : core.Vec.units.x/fast
+
+#=============================================================================
 # Target rules for targets named configs.dev.x
 
 # Build rule for target.
@@ -178,6 +191,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... configs.dev.x"
 	@echo "... core.Stringf.units.x"
+	@echo "... core.Vec.units.x"
 	@echo "... core.dev.x"
 	@echo "... make_crystal.dev.x"
 .PHONY : help

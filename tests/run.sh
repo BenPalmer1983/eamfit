@@ -10,4 +10,6 @@ source build_tests.sh
 
 cd tests
 
+python3 tests.py
+
 

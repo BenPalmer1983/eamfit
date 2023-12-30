@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/core.Vec.units.x.dir/core.Vec.units.cpp.o -o /DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/core.Vec.units.x  ../../../lib/libtester.a ../../../lib/libcore.a 
