@@ -130,6 +130,20 @@ configs.dev.x/fast:
 	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.dev.x.dir/build.make lib/configs/CMakeFiles/configs.dev.x.dir/build
 .PHONY : configs.dev.x/fast
 
+# Convenience name for target.
+lib/configs/CMakeFiles/make_crystal.dev.x.dir/rule:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/configs/CMakeFiles/make_crystal.dev.x.dir/rule
+.PHONY : lib/configs/CMakeFiles/make_crystal.dev.x.dir/rule
+
+# Convenience name for target.
+make_crystal.dev.x: lib/configs/CMakeFiles/make_crystal.dev.x.dir/rule
+.PHONY : make_crystal.dev.x
+
+# fast build rule for target.
+make_crystal.dev.x/fast:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/make_crystal.dev.x.dir/build.make lib/configs/CMakeFiles/make_crystal.dev.x.dir/build
+.PHONY : make_crystal.dev.x/fast
+
 configs.dev.o: configs.dev.cpp.o
 .PHONY : configs.dev.o
 
@@ -154,6 +168,30 @@ configs.dev.cpp.s:
 	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.dev.x.dir/build.make lib/configs/CMakeFiles/configs.dev.x.dir/configs.dev.cpp.s
 .PHONY : configs.dev.cpp.s
 
+make_crystal.dev.o: make_crystal.dev.cpp.o
+.PHONY : make_crystal.dev.o
+
+# target to build an object file
+make_crystal.dev.cpp.o:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/make_crystal.dev.x.dir/build.make lib/configs/CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.o
+.PHONY : make_crystal.dev.cpp.o
+
+make_crystal.dev.i: make_crystal.dev.cpp.i
+.PHONY : make_crystal.dev.i
+
+# target to preprocess a source file
+make_crystal.dev.cpp.i:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/make_crystal.dev.x.dir/build.make lib/configs/CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.i
+.PHONY : make_crystal.dev.cpp.i
+
+make_crystal.dev.s: make_crystal.dev.cpp.s
+.PHONY : make_crystal.dev.s
+
+# target to generate assembly for a file
+make_crystal.dev.cpp.s:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/make_crystal.dev.x.dir/build.make lib/configs/CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.s
+.PHONY : make_crystal.dev.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,9 +201,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... configs.dev.x"
+	@echo "... make_crystal.dev.x"
 	@echo "... configs.dev.o"
 	@echo "... configs.dev.i"
 	@echo "... configs.dev.s"
+	@echo "... make_crystal.dev.o"
+	@echo "... make_crystal.dev.i"
+	@echo "... make_crystal.dev.s"
 .PHONY : help
 
 

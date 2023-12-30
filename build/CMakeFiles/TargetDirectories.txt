@@ -2,6 +2,9 @@
 /DATA/disk3/cloud/Code/cpp/eamfit++/build/CMakeFiles/rebuild_cache.dir
 /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/CMakeFiles/edit_cache.dir
 /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/CMakeFiles/rebuild_cache.dir
+/DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/tester/CMakeFiles/tester.dir
+/DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/tester/CMakeFiles/edit_cache.dir
+/DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/tester/CMakeFiles/rebuild_cache.dir
 /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/core/CMakeFiles/core.dir
 /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/core/CMakeFiles/edit_cache.dir
 /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/core/CMakeFiles/rebuild_cache.dir

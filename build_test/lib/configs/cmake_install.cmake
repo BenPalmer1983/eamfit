@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/DATA/disk3/cloud/Code/cpp/eamfit++/bin")
+  set(CMAKE_INSTALL_PREFIX "/DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

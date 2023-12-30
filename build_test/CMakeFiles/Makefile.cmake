@@ -50,5 +50,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "lib/core/CMakeFiles/core.dev.x.dir/DependInfo.cmake"
+  "lib/core/CMakeFiles/core.Stringf.units.x.dir/DependInfo.cmake"
   "lib/configs/CMakeFiles/configs.dev.x.dir/DependInfo.cmake"
+  "lib/configs/CMakeFiles/make_crystal.dev.x.dir/DependInfo.cmake"
   )

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/configs.dev.x.dir/configs.dev.cpp.o -o /DATA/disk3/cloud/Code/cpp/eamfit++/bin/configs.dev.x  ../../../lib/libconfigs.a ../../../lib/libcore.a 
+/usr/bin/c++ CMakeFiles/configs.dev.x.dir/configs.dev.cpp.o -o /DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/configs.dev.x  ../../../lib/libconfigs.a ../../../lib/libcore.a 

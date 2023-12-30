@@ -130,6 +130,44 @@ core.dev.x/fast:
 	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.dev.x.dir/build.make lib/core/CMakeFiles/core.dev.x.dir/build
 .PHONY : core.dev.x/fast
 
+# Convenience name for target.
+lib/core/CMakeFiles/core.Stringf.units.x.dir/rule:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/core/CMakeFiles/core.Stringf.units.x.dir/rule
+.PHONY : lib/core/CMakeFiles/core.Stringf.units.x.dir/rule
+
+# Convenience name for target.
+core.Stringf.units.x: lib/core/CMakeFiles/core.Stringf.units.x.dir/rule
+.PHONY : core.Stringf.units.x
+
+# fast build rule for target.
+core.Stringf.units.x/fast:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Stringf.units.x.dir/build.make lib/core/CMakeFiles/core.Stringf.units.x.dir/build
+.PHONY : core.Stringf.units.x/fast
+
+core.Stringf.units.o: core.Stringf.units.cpp.o
+.PHONY : core.Stringf.units.o
+
+# target to build an object file
+core.Stringf.units.cpp.o:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Stringf.units.x.dir/build.make lib/core/CMakeFiles/core.Stringf.units.x.dir/core.Stringf.units.cpp.o
+.PHONY : core.Stringf.units.cpp.o
+
+core.Stringf.units.i: core.Stringf.units.cpp.i
+.PHONY : core.Stringf.units.i
+
+# target to preprocess a source file
+core.Stringf.units.cpp.i:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Stringf.units.x.dir/build.make lib/core/CMakeFiles/core.Stringf.units.x.dir/core.Stringf.units.cpp.i
+.PHONY : core.Stringf.units.cpp.i
+
+core.Stringf.units.s: core.Stringf.units.cpp.s
+.PHONY : core.Stringf.units.s
+
+# target to generate assembly for a file
+core.Stringf.units.cpp.s:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Stringf.units.x.dir/build.make lib/core/CMakeFiles/core.Stringf.units.x.dir/core.Stringf.units.cpp.s
+.PHONY : core.Stringf.units.cpp.s
+
 core.dev.o: core.dev.cpp.o
 .PHONY : core.dev.o
 
@@ -162,7 +200,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... core.Stringf.units.x"
 	@echo "... core.dev.x"
+	@echo "... core.Stringf.units.o"
+	@echo "... core.Stringf.units.i"
+	@echo "... core.Stringf.units.s"
 	@echo "... core.dev.o"
 	@echo "... core.dev.i"
 	@echo "... core.dev.s"

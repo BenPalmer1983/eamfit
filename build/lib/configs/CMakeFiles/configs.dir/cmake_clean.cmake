@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "/DATA/disk3/cloud/Code/cpp/eamfit++/lib/libconfigs.a"
   "/DATA/disk3/cloud/Code/cpp/eamfit++/lib/libconfigs.pdb"
+  "CMakeFiles/configs.dir/Atom.cpp.o"
+  "CMakeFiles/configs.dir/Atom.cpp.o.d"
   "CMakeFiles/configs.dir/Atom_Labels.cpp.o"
   "CMakeFiles/configs.dir/Atom_Labels.cpp.o.d"
   "CMakeFiles/configs.dir/Config.cpp.o"

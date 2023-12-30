@@ -13,6 +13,7 @@ target_link_libraries(
 
 target_sources(
     ${LIB} PRIVATE
+    Atom.cpp
     Atom_Labels.cpp
     Config.cpp
 )

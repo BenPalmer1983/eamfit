@@ -44,6 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/tester/cmake_install.cmake")
   include("/DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/core/cmake_install.cmake")
   include("/DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/configs/cmake_install.cmake")
 

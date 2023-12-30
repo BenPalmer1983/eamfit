@@ -83,17 +83,33 @@ lib/core/CMakeFiles/core.dir/Stringf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Stringf.cpp.s"
 	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/core/Stringf.cpp -o CMakeFiles/core.dir/Stringf.cpp.s
 
+lib/core/CMakeFiles/core.dir/Vec.cpp.o: lib/core/CMakeFiles/core.dir/flags.make
+lib/core/CMakeFiles/core.dir/Vec.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/core/Vec.cpp
+lib/core/CMakeFiles/core.dir/Vec.cpp.o: lib/core/CMakeFiles/core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/core/CMakeFiles/core.dir/Vec.cpp.o"
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/core/CMakeFiles/core.dir/Vec.cpp.o -MF CMakeFiles/core.dir/Vec.cpp.o.d -o CMakeFiles/core.dir/Vec.cpp.o -c /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/core/Vec.cpp
+
+lib/core/CMakeFiles/core.dir/Vec.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/Vec.cpp.i"
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/core/Vec.cpp > CMakeFiles/core.dir/Vec.cpp.i
+
+lib/core/CMakeFiles/core.dir/Vec.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Vec.cpp.s"
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/core/Vec.cpp -o CMakeFiles/core.dir/Vec.cpp.s
+
 # Object files for target core
 core_OBJECTS = \
-"CMakeFiles/core.dir/Stringf.cpp.o"
+"CMakeFiles/core.dir/Stringf.cpp.o" \
+"CMakeFiles/core.dir/Vec.cpp.o"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
 
 /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libcore.a: lib/core/CMakeFiles/core.dir/Stringf.cpp.o
+/DATA/disk3/cloud/Code/cpp/eamfit++/lib/libcore.a: lib/core/CMakeFiles/core.dir/Vec.cpp.o
 /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libcore.a: lib/core/CMakeFiles/core.dir/build.make
 /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libcore.a: lib/core/CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libcore.a"
 	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/core && $(CMAKE_COMMAND) -P CMakeFiles/core.dir/cmake_clean_target.cmake
 	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/core.dir/link.txt --verbose=$(VERBOSE)
 

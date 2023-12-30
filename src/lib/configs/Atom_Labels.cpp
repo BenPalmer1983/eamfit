@@ -46,6 +46,9 @@ int Atom_Labels::get_id(std::string label_in)
 
 
 
-    std::vector<std::string> labels {};
+std::string Atom_Labels::get_label(int id)
+{    
+    return Atom_Labels::labels[id];
+}
 
 /*****************************************************************************/

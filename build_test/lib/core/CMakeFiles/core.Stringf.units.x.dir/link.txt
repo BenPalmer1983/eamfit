@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/core.Stringf.units.x.dir/core.Stringf.units.cpp.o -o /DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/core.Stringf.units.x  ../../../lib/libtester.a ../../../lib/libcore.a 

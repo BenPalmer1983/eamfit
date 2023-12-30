@@ -1,0 +1,2 @@
+/usr/bin/ar qc /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libtester.a CMakeFiles/tester.dir/Assert.cpp.o CMakeFiles/tester.dir/Unit_Test.cpp.o
+/usr/bin/ranlib /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libtester.a

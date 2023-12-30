@@ -188,8 +188,13 @@ lib/configs/CMakeFiles/configs.dev.x.dir/configs.dev.cpp.o: /DATA/disk3/cloud/Co
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/core/Stringf.h \
-  /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Config.h
+  /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Config.h \
+  /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/core/Vec.h \
+  /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Atom.h \
+  /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Atom_Labels.h
 
+
+/DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/core/Vec.h:
 
 /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Config.h:
 
@@ -202,6 +207,8 @@ lib/configs/CMakeFiles/configs.dev.x.dir/configs.dev.cpp.o: /DATA/disk3/cloud/Co
 /usr/include/c++/11/vector:
 
 /usr/include/c++/11/bits/istream.tcc:
+
+/DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Atom.h:
 
 /usr/include/c++/11/istream:
 

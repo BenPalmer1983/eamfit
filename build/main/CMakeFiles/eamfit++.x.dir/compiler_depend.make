@@ -181,12 +181,33 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Config.h
+  /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Config.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/core/Vec.h \
+  /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Atom.h \
+  /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Atom_Labels.h \
+  /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/core/Stringf.h
 
+
+/DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/core/Vec.h:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/c++/11/vector:
 
 /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Config.h:
 
 /usr/include/c++/11/bits/istream.tcc:
+
+/DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Atom.h:
 
 /usr/include/c++/11/istream:
 
@@ -209,6 +230,8 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
 /usr/include/c++/11/stdexcept:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/c++/11/system_error:
 
@@ -454,6 +477,8 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
 
 /usr/include/c++/11/clocale:
 
+/DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/core/Stringf.h:
+
 /usr/include/c++/11/debug/debug.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
@@ -539,6 +564,8 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/c++/11/bits/basic_string.h:
+
+/DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Atom_Labels.h:
 
 /usr/include/c++/11/bits/cxxabi_forced.h:
 

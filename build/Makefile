@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named tester
+
+# Build rule for target.
+tester: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tester
+.PHONY : tester
+
+# fast build rule for target.
+tester/fast:
+	$(MAKE) $(MAKESILENT) -f lib/tester/CMakeFiles/tester.dir/build.make lib/tester/CMakeFiles/tester.dir/build
+.PHONY : tester/fast
+
+#=============================================================================
 # Target rules for targets named core
 
 # Build rule for target.
@@ -166,6 +179,7 @@ help:
 	@echo "... configs"
 	@echo "... core"
 	@echo "... eamfit++.x"
+	@echo "... tester"
 .PHONY : help
 
 

@@ -130,6 +130,30 @@ configs/fast:
 	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build && $(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.dir/build.make lib/configs/CMakeFiles/configs.dir/build
 .PHONY : configs/fast
 
+Atom.o: Atom.cpp.o
+.PHONY : Atom.o
+
+# target to build an object file
+Atom.cpp.o:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build && $(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.dir/build.make lib/configs/CMakeFiles/configs.dir/Atom.cpp.o
+.PHONY : Atom.cpp.o
+
+Atom.i: Atom.cpp.i
+.PHONY : Atom.i
+
+# target to preprocess a source file
+Atom.cpp.i:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build && $(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.dir/build.make lib/configs/CMakeFiles/configs.dir/Atom.cpp.i
+.PHONY : Atom.cpp.i
+
+Atom.s: Atom.cpp.s
+.PHONY : Atom.s
+
+# target to generate assembly for a file
+Atom.cpp.s:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build && $(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.dir/build.make lib/configs/CMakeFiles/configs.dir/Atom.cpp.s
+.PHONY : Atom.cpp.s
+
 Atom_Labels.o: Atom_Labels.cpp.o
 .PHONY : Atom_Labels.o
 
@@ -187,6 +211,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... configs"
+	@echo "... Atom.o"
+	@echo "... Atom.i"
+	@echo "... Atom.s"
 	@echo "... Atom_Labels.o"
 	@echo "... Atom_Labels.i"
 	@echo "... Atom_Labels.s"

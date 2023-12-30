@@ -130,6 +130,19 @@ core.dev.x/fast:
 .PHONY : core.dev.x/fast
 
 #=============================================================================
+# Target rules for targets named core.Stringf.units.x
+
+# Build rule for target.
+core.Stringf.units.x: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 core.Stringf.units.x
+.PHONY : core.Stringf.units.x
+
+# fast build rule for target.
+core.Stringf.units.x/fast:
+	$(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Stringf.units.x.dir/build.make lib/core/CMakeFiles/core.Stringf.units.x.dir/build
+.PHONY : core.Stringf.units.x/fast
+
+#=============================================================================
 # Target rules for targets named configs.dev.x
 
 # Build rule for target.
@@ -142,6 +155,19 @@ configs.dev.x/fast:
 	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.dev.x.dir/build.make lib/configs/CMakeFiles/configs.dev.x.dir/build
 .PHONY : configs.dev.x/fast
 
+#=============================================================================
+# Target rules for targets named make_crystal.dev.x
+
+# Build rule for target.
+make_crystal.dev.x: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 make_crystal.dev.x
+.PHONY : make_crystal.dev.x
+
+# fast build rule for target.
+make_crystal.dev.x/fast:
+	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/make_crystal.dev.x.dir/build.make lib/configs/CMakeFiles/make_crystal.dev.x.dir/build
+.PHONY : make_crystal.dev.x/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -151,7 +177,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... configs.dev.x"
+	@echo "... core.Stringf.units.x"
 	@echo "... core.dev.x"
+	@echo "... make_crystal.dev.x"
 .PHONY : help
 
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/DATA/disk3/cloud/Code/cpp/eamfit++/bin/configs.dev.x"
-  "/DATA/disk3/cloud/Code/cpp/eamfit++/bin/configs.dev.x.pdb"
+  "/DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/configs.dev.x"
+  "/DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/configs.dev.x.pdb"
   "CMakeFiles/configs.dev.x.dir/configs.dev.cpp.o"
   "CMakeFiles/configs.dev.x.dir/configs.dev.cpp.o.d"
 )

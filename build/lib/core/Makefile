@@ -154,6 +154,30 @@ Stringf.cpp.s:
 	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.dir/build.make lib/core/CMakeFiles/core.dir/Stringf.cpp.s
 .PHONY : Stringf.cpp.s
 
+Vec.o: Vec.cpp.o
+.PHONY : Vec.o
+
+# target to build an object file
+Vec.cpp.o:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.dir/build.make lib/core/CMakeFiles/core.dir/Vec.cpp.o
+.PHONY : Vec.cpp.o
+
+Vec.i: Vec.cpp.i
+.PHONY : Vec.i
+
+# target to preprocess a source file
+Vec.cpp.i:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.dir/build.make lib/core/CMakeFiles/core.dir/Vec.cpp.i
+.PHONY : Vec.cpp.i
+
+Vec.s: Vec.cpp.s
+.PHONY : Vec.s
+
+# target to generate assembly for a file
+Vec.cpp.s:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build && $(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.dir/build.make lib/core/CMakeFiles/core.dir/Vec.cpp.s
+.PHONY : Vec.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +190,9 @@ help:
 	@echo "... Stringf.o"
 	@echo "... Stringf.i"
 	@echo "... Stringf.s"
+	@echo "... Vec.o"
+	@echo "... Vec.i"
+	@echo "... Vec.s"
 .PHONY : help
 
 

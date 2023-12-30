@@ -4,8 +4,8 @@
 
 int main()
 {
-    Config m;
-    m.output();
+
+
 
     std::cout << "print" << std::endl;
 

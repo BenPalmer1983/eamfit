@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/DATA/disk3/cloud/Code/cpp/eamfit++/build/../src/lib
 
-CXX_FLAGS = 
+CXX_FLAGS = -std=c++17
 

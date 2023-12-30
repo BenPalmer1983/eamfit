@@ -1,2 +1,2 @@
-/usr/bin/ar qc /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libcore.a CMakeFiles/core.dir/Stringf.cpp.o
+/usr/bin/ar qc /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libcore.a CMakeFiles/core.dir/Stringf.cpp.o CMakeFiles/core.dir/Vec.cpp.o
 /usr/bin/ranlib /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libcore.a

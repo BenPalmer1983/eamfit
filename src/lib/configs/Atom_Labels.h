@@ -1,6 +1,7 @@
 /******************************************************************************
- * 
- * 
+ * Atom_Labels
+ * Singleton
+ * Stores atom labels and gives a unique ID for each atom label
  * 
  * 
 ******************************************************************************/
@@ -20,6 +21,7 @@ class Atom_Labels
 public:
     static Atom_Labels& get();
     int get_id(std::string label);
+    std::string get_label(int id);
 
 private: 
 
