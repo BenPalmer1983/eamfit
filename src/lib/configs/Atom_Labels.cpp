@@ -18,7 +18,7 @@ Atom_Labels& Atom_Labels::get()
 
 int Atom_Labels::get_id(std::string label_in)
 {    
-    std::string label = Stringf::upper(label_in);
+    std::string label = Stringf::trim(label_in);
 
     if(Atom_Labels::labels.size() == 0)
     {
@@ -39,7 +39,6 @@ int Atom_Labels::get_id(std::string label_in)
         return Atom_Labels::labels.size() - 1;
 
     }
-
     
     return 0;
 }

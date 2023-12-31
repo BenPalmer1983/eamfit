@@ -181,6 +181,32 @@ make_crystal.dev.x/fast:
 	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/make_crystal.dev.x.dir/build.make lib/configs/CMakeFiles/make_crystal.dev.x.dir/build
 .PHONY : make_crystal.dev.x/fast
 
+#=============================================================================
+# Target rules for targets named configs.Atom.units.x
+
+# Build rule for target.
+configs.Atom.units.x: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 configs.Atom.units.x
+.PHONY : configs.Atom.units.x
+
+# fast build rule for target.
+configs.Atom.units.x/fast:
+	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.Atom.units.x.dir/build.make lib/configs/CMakeFiles/configs.Atom.units.x.dir/build
+.PHONY : configs.Atom.units.x/fast
+
+#=============================================================================
+# Target rules for targets named configs.Make_Crystal.units.x
+
+# Build rule for target.
+configs.Make_Crystal.units.x: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 configs.Make_Crystal.units.x
+.PHONY : configs.Make_Crystal.units.x
+
+# fast build rule for target.
+configs.Make_Crystal.units.x/fast:
+	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/build.make lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/build
+.PHONY : configs.Make_Crystal.units.x/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,6 +215,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... configs.Atom.units.x"
+	@echo "... configs.Make_Crystal.units.x"
 	@echo "... configs.dev.x"
 	@echo "... core.Stringf.units.x"
 	@echo "... core.Vec.units.x"

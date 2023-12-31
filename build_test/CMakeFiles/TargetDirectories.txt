@@ -9,5 +9,7 @@
 /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/lib/core/CMakeFiles/rebuild_cache.dir
 /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/lib/configs/CMakeFiles/configs.dev.x.dir
 /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/lib/configs/CMakeFiles/make_crystal.dev.x.dir
+/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/lib/configs/CMakeFiles/configs.Atom.units.x.dir
+/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir
 /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/lib/configs/CMakeFiles/edit_cache.dir
 /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/lib/configs/CMakeFiles/rebuild_cache.dir

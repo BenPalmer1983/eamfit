@@ -16,4 +16,5 @@ target_sources(
     Atom.cpp
     Atom_Labels.cpp
     Config.cpp
+    Make_Crystal.cpp
 )

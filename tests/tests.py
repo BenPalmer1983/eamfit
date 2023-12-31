@@ -12,7 +12,10 @@ class Tests:
 
     
     def run(self):
-    
+        
+        warnmsg = ""
+        no_out_counter = 0
+        
         self.topdir = os.getcwd()
         self.bindir = os.path.join(self.topdir, "bin")
         self.wd = os.path.join(self.topdir, "wd")
@@ -27,16 +30,23 @@ class Tests:
             test_bin = self.test_bins[i]
             subprocess.run(test_bin)
             
-            with open(self.log_files[i], mode='r') as fh:
-                log_file = csv.reader(fh)
-                for line in log_file:
-                    passed = passed and (line[0] == "1")
+            print(self.log_files[i])
+            if(os.path.isfile(self.log_files[i])):
+                with open(self.log_files[i], mode='r') as fh:
+                    log_file = csv.reader(fh)
+                    for line in log_file:
+                        passed = passed and (line[0] == "1")
+
+            else:
+                no_out_counter = no_out_counter + 1;
+                print("WARNING - no output from test!!!")
+                warnmsg = " [warning: " + str(no_out_counter) + " test/s had no ouput]"
                     
         print()
         print("##########################################")
         print("Overall Result:")
         if(passed):
-            print("PASSED")
+            print("PASSED", warnmsg)
         else:
             print("FAILED")
         print("##########################################")

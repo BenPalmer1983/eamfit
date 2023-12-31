@@ -69,28 +69,28 @@ include lib/configs/CMakeFiles/make_crystal.dev.x.dir/progress.make
 # Include the compile flags for this target's objects.
 include lib/configs/CMakeFiles/make_crystal.dev.x.dir/flags.make
 
-lib/configs/CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.o: lib/configs/CMakeFiles/make_crystal.dev.x.dir/flags.make
-lib/configs/CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/src_test/lib/configs/make_crystal.dev.cpp
-lib/configs/CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.o: lib/configs/CMakeFiles/make_crystal.dev.x.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/configs/CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.o"
-	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/lib/configs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/configs/CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.o -MF CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.o.d -o CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.o -c /DATA/disk3/cloud/Code/cpp/eamfit++/src_test/lib/configs/make_crystal.dev.cpp
+lib/configs/CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.o: lib/configs/CMakeFiles/make_crystal.dev.x.dir/flags.make
+lib/configs/CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/src_test/lib/configs/configs.Make_Crystal.dev.cpp
+lib/configs/CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.o: lib/configs/CMakeFiles/make_crystal.dev.x.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/configs/CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.o"
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/lib/configs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/configs/CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.o -MF CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.o.d -o CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.o -c /DATA/disk3/cloud/Code/cpp/eamfit++/src_test/lib/configs/configs.Make_Crystal.dev.cpp
 
-lib/configs/CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.i"
-	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/lib/configs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /DATA/disk3/cloud/Code/cpp/eamfit++/src_test/lib/configs/make_crystal.dev.cpp > CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.i
+lib/configs/CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.i"
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/lib/configs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /DATA/disk3/cloud/Code/cpp/eamfit++/src_test/lib/configs/configs.Make_Crystal.dev.cpp > CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.i
 
-lib/configs/CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.s"
-	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/lib/configs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /DATA/disk3/cloud/Code/cpp/eamfit++/src_test/lib/configs/make_crystal.dev.cpp -o CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.s
+lib/configs/CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.s"
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/lib/configs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /DATA/disk3/cloud/Code/cpp/eamfit++/src_test/lib/configs/configs.Make_Crystal.dev.cpp -o CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.s
 
 # Object files for target make_crystal.dev.x
 make_crystal_dev_x_OBJECTS = \
-"CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.o"
+"CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.o"
 
 # External object files for target make_crystal.dev.x
 make_crystal_dev_x_EXTERNAL_OBJECTS =
 
-/DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/make_crystal.dev.x: lib/configs/CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.o
+/DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/make_crystal.dev.x: lib/configs/CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.o
 /DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/make_crystal.dev.x: lib/configs/CMakeFiles/make_crystal.dev.x.dir/build.make
 /DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/make_crystal.dev.x: ../lib/libconfigs.a
 /DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/make_crystal.dev.x: ../lib/libcore.a

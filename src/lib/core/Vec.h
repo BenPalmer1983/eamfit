@@ -14,6 +14,14 @@
 #include <cmath>
 /*****************************************************************************/
 
+/*
+*    Overloaded operators:
+*       |   distance between two operators  
+*       *   cross product
+*       %   dot product
+*
+*
+*/
 
 class Vec
 {
@@ -36,7 +44,10 @@ public:
 
     Vec operator+(Vec & rhs);
     Vec operator-(Vec & rhs);
-    double operator|(Vec & rhs);
+    double operator|(Vec & rhs);       // distance
+    Vec operator*(Vec & rhs);          // cross product
+    double operator%(Vec & rhs);       // dot product
+    Vec operator*(double scalar);      // scalar boost
     
 
 private:

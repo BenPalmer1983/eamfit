@@ -2,3 +2,25 @@
 1,### PASSED ###,Vec::get_y()
 1,### PASSED ###,Vec::get_z()
 1,### PASSED ###,Vec::set_x() Vec::get_x()
+1,### PASSED ###,operator(+)
+1,### PASSED ###,operator(+)
+1,### PASSED ###,operator(+)
+1,### PASSED ###,operator(-)
+1,### PASSED ###,operator(-)
+1,### PASSED ###,operator(-)
+1,### PASSED ###,operator(|) distance
+1,### PASSED ###,operator(%) dot product
+1,### PASSED ###,operator(*) cross product
+1,### PASSED ###,operator(*) cross product
+1,### PASSED ###,operator(*) cross product
+1,### PASSED ###,operator(*) scalar boost
+1,### PASSED ###,operator(*) scalar boost
+1,### PASSED ###,operator(*) scalar boost
+1,### PASSED ###,operator(|) distance
+1,### PASSED ###,operator(%) dot product
+1,### PASSED ###,operator(*) cross product
+1,### PASSED ###,operator(*) cross product
+1,### PASSED ###,operator(*) cross product
+1,### PASSED ###,operator(*) scalar boost
+1,### PASSED ###,operator(*) scalar boost
+1,### PASSED ###,operator(*) scalar boost

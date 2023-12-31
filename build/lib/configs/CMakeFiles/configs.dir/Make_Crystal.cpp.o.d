@@ -1,6 +1,8 @@
-lib/configs/CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.o: \
- /DATA/disk3/cloud/Code/cpp/eamfit++/src_test/lib/configs/make_crystal.dev.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
+lib/configs/CMakeFiles/configs.dir/Make_Crystal.cpp.o: \
+ /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Make_Crystal.cpp \
+ /usr/include/stdc-predef.h \
+ /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Make_Crystal.h \
+ /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -146,14 +148,12 @@ lib/configs/CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/../src/lib/configs/Atom_Labels.h \
+ /DATA/disk3/cloud/Code/cpp/eamfit++/build/../src/lib/core/Stringf.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/../src/lib/core/Stringf.h \
- /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/../src/lib/configs/Config.h \
- /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/../src/lib/core/Vec.h \
+ /DATA/disk3/cloud/Code/cpp/eamfit++/build/../src/lib/core/Vec.h \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -177,7 +177,6 @@ lib/configs/CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/../src/lib/configs/Atom.h \
- /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/../src/lib/configs/Atom_Labels.h \
- /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/../src/lib/configs/Make_Crystal.h \
- /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/../src/lib/configs/Config.h
+ /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Config.h \
+ /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Atom.h \
+ /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Atom_Labels.h

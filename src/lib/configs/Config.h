@@ -20,6 +20,7 @@ class Config
 public:
 
     // Construct/clear/free
+    Config();
     void clear_atoms();
 
     // Set
@@ -28,7 +29,14 @@ public:
     void set_uy(Vec y);
     void set_uz(Vec z);
 
+    void add_atom(Atom atom);
+
     // Get
+    int get_atom_count();
+    double get_a0();
+    Vec get_ux();
+    Vec get_uy();
+    Vec get_uz();
 
 
     // Calculate

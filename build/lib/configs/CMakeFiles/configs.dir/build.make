@@ -111,11 +111,26 @@ lib/configs/CMakeFiles/configs.dir/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/configs.dir/Config.cpp.s"
 	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/configs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Config.cpp -o CMakeFiles/configs.dir/Config.cpp.s
 
+lib/configs/CMakeFiles/configs.dir/Make_Crystal.cpp.o: lib/configs/CMakeFiles/configs.dir/flags.make
+lib/configs/CMakeFiles/configs.dir/Make_Crystal.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Make_Crystal.cpp
+lib/configs/CMakeFiles/configs.dir/Make_Crystal.cpp.o: lib/configs/CMakeFiles/configs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/configs/CMakeFiles/configs.dir/Make_Crystal.cpp.o"
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/configs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/configs/CMakeFiles/configs.dir/Make_Crystal.cpp.o -MF CMakeFiles/configs.dir/Make_Crystal.cpp.o.d -o CMakeFiles/configs.dir/Make_Crystal.cpp.o -c /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Make_Crystal.cpp
+
+lib/configs/CMakeFiles/configs.dir/Make_Crystal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/configs.dir/Make_Crystal.cpp.i"
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/configs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Make_Crystal.cpp > CMakeFiles/configs.dir/Make_Crystal.cpp.i
+
+lib/configs/CMakeFiles/configs.dir/Make_Crystal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/configs.dir/Make_Crystal.cpp.s"
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/configs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Make_Crystal.cpp -o CMakeFiles/configs.dir/Make_Crystal.cpp.s
+
 # Object files for target configs
 configs_OBJECTS = \
 "CMakeFiles/configs.dir/Atom.cpp.o" \
 "CMakeFiles/configs.dir/Atom_Labels.cpp.o" \
-"CMakeFiles/configs.dir/Config.cpp.o"
+"CMakeFiles/configs.dir/Config.cpp.o" \
+"CMakeFiles/configs.dir/Make_Crystal.cpp.o"
 
 # External object files for target configs
 configs_EXTERNAL_OBJECTS =
@@ -123,9 +138,10 @@ configs_EXTERNAL_OBJECTS =
 /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libconfigs.a: lib/configs/CMakeFiles/configs.dir/Atom.cpp.o
 /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libconfigs.a: lib/configs/CMakeFiles/configs.dir/Atom_Labels.cpp.o
 /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libconfigs.a: lib/configs/CMakeFiles/configs.dir/Config.cpp.o
+/DATA/disk3/cloud/Code/cpp/eamfit++/lib/libconfigs.a: lib/configs/CMakeFiles/configs.dir/Make_Crystal.cpp.o
 /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libconfigs.a: lib/configs/CMakeFiles/configs.dir/build.make
 /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libconfigs.a: lib/configs/CMakeFiles/configs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libconfigs.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libconfigs.a"
 	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/configs && $(CMAKE_COMMAND) -P CMakeFiles/configs.dir/cmake_clean_target.cmake
 	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build/lib/configs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/configs.dir/link.txt --verbose=$(VERBOSE)
 

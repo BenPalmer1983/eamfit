@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/configs.Make_Crystal.units.x.dir/configs.Make_Crystal.units.cpp.o -o /DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/configs.Make_Crystal.units.x  ../../../lib/libconfigs.a ../../../lib/libcore.a ../../../lib/libtester.a 

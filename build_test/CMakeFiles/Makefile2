@@ -98,6 +98,8 @@ lib/clean: lib/configs/clean
 # Recursive "all" directory target.
 lib/configs/all: lib/configs/CMakeFiles/configs.dev.x.dir/all
 lib/configs/all: lib/configs/CMakeFiles/make_crystal.dev.x.dir/all
+lib/configs/all: lib/configs/CMakeFiles/configs.Atom.units.x.dir/all
+lib/configs/all: lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/all
 .PHONY : lib/configs/all
 
 # Recursive "preinstall" directory target.
@@ -107,6 +109,8 @@ lib/configs/preinstall:
 # Recursive "clean" directory target.
 lib/configs/clean: lib/configs/CMakeFiles/configs.dev.x.dir/clean
 lib/configs/clean: lib/configs/CMakeFiles/make_crystal.dev.x.dir/clean
+lib/configs/clean: lib/configs/CMakeFiles/configs.Atom.units.x.dir/clean
+lib/configs/clean: lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/clean
 .PHONY : lib/configs/clean
 
 #=============================================================================
@@ -135,7 +139,7 @@ lib/core/clean: lib/core/CMakeFiles/core.Vec.units.x.dir/clean
 lib/core/CMakeFiles/core.dev.x.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.dev.x.dir/build.make lib/core/CMakeFiles/core.dev.x.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.dev.x.dir/build.make lib/core/CMakeFiles/core.dev.x.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles --progress-num=7,8 "Built target core.dev.x"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles --progress-num=11,12 "Built target core.dev.x"
 .PHONY : lib/core/CMakeFiles/core.dev.x.dir/all
 
 # Build rule for subdir invocation for target.
@@ -161,7 +165,7 @@ lib/core/CMakeFiles/core.dev.x.dir/clean:
 lib/core/CMakeFiles/core.Stringf.units.x.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Stringf.units.x.dir/build.make lib/core/CMakeFiles/core.Stringf.units.x.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Stringf.units.x.dir/build.make lib/core/CMakeFiles/core.Stringf.units.x.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles --progress-num=3,4 "Built target core.Stringf.units.x"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles --progress-num=7,8 "Built target core.Stringf.units.x"
 .PHONY : lib/core/CMakeFiles/core.Stringf.units.x.dir/all
 
 # Build rule for subdir invocation for target.
@@ -187,7 +191,7 @@ lib/core/CMakeFiles/core.Stringf.units.x.dir/clean:
 lib/core/CMakeFiles/core.Vec.units.x.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Vec.units.x.dir/build.make lib/core/CMakeFiles/core.Vec.units.x.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/core/CMakeFiles/core.Vec.units.x.dir/build.make lib/core/CMakeFiles/core.Vec.units.x.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles --progress-num=5,6 "Built target core.Vec.units.x"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles --progress-num=9,10 "Built target core.Vec.units.x"
 .PHONY : lib/core/CMakeFiles/core.Vec.units.x.dir/all
 
 # Build rule for subdir invocation for target.
@@ -213,7 +217,7 @@ lib/core/CMakeFiles/core.Vec.units.x.dir/clean:
 lib/configs/CMakeFiles/configs.dev.x.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.dev.x.dir/build.make lib/configs/CMakeFiles/configs.dev.x.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.dev.x.dir/build.make lib/configs/CMakeFiles/configs.dev.x.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles --progress-num=1,2 "Built target configs.dev.x"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles --progress-num=5,6 "Built target configs.dev.x"
 .PHONY : lib/configs/CMakeFiles/configs.dev.x.dir/all
 
 # Build rule for subdir invocation for target.
@@ -239,7 +243,7 @@ lib/configs/CMakeFiles/configs.dev.x.dir/clean:
 lib/configs/CMakeFiles/make_crystal.dev.x.dir/all:
 	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/make_crystal.dev.x.dir/build.make lib/configs/CMakeFiles/make_crystal.dev.x.dir/depend
 	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/make_crystal.dev.x.dir/build.make lib/configs/CMakeFiles/make_crystal.dev.x.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles --progress-num=9,10 "Built target make_crystal.dev.x"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles --progress-num=13,14 "Built target make_crystal.dev.x"
 .PHONY : lib/configs/CMakeFiles/make_crystal.dev.x.dir/all
 
 # Build rule for subdir invocation for target.
@@ -257,6 +261,58 @@ make_crystal.dev.x: lib/configs/CMakeFiles/make_crystal.dev.x.dir/rule
 lib/configs/CMakeFiles/make_crystal.dev.x.dir/clean:
 	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/make_crystal.dev.x.dir/build.make lib/configs/CMakeFiles/make_crystal.dev.x.dir/clean
 .PHONY : lib/configs/CMakeFiles/make_crystal.dev.x.dir/clean
+
+#=============================================================================
+# Target rules for target lib/configs/CMakeFiles/configs.Atom.units.x.dir
+
+# All Build rule for target.
+lib/configs/CMakeFiles/configs.Atom.units.x.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.Atom.units.x.dir/build.make lib/configs/CMakeFiles/configs.Atom.units.x.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.Atom.units.x.dir/build.make lib/configs/CMakeFiles/configs.Atom.units.x.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles --progress-num=1,2 "Built target configs.Atom.units.x"
+.PHONY : lib/configs/CMakeFiles/configs.Atom.units.x.dir/all
+
+# Build rule for subdir invocation for target.
+lib/configs/CMakeFiles/configs.Atom.units.x.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/configs/CMakeFiles/configs.Atom.units.x.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles 0
+.PHONY : lib/configs/CMakeFiles/configs.Atom.units.x.dir/rule
+
+# Convenience name for target.
+configs.Atom.units.x: lib/configs/CMakeFiles/configs.Atom.units.x.dir/rule
+.PHONY : configs.Atom.units.x
+
+# clean rule for target.
+lib/configs/CMakeFiles/configs.Atom.units.x.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.Atom.units.x.dir/build.make lib/configs/CMakeFiles/configs.Atom.units.x.dir/clean
+.PHONY : lib/configs/CMakeFiles/configs.Atom.units.x.dir/clean
+
+#=============================================================================
+# Target rules for target lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir
+
+# All Build rule for target.
+lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/all:
+	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/build.make lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/depend
+	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/build.make lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles --progress-num=3,4 "Built target configs.Make_Crystal.units.x"
+.PHONY : lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/all
+
+# Build rule for subdir invocation for target.
+lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /DATA/disk3/cloud/Code/cpp/eamfit++/build_test/CMakeFiles 0
+.PHONY : lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/rule
+
+# Convenience name for target.
+configs.Make_Crystal.units.x: lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/rule
+.PHONY : configs.Make_Crystal.units.x
+
+# clean rule for target.
+lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/build.make lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/clean
+.PHONY : lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

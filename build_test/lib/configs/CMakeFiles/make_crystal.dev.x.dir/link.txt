@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/make_crystal.dev.x.dir/make_crystal.dev.cpp.o -o /DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/make_crystal.dev.x  ../../../lib/libconfigs.a ../../../lib/libcore.a 
+/usr/bin/c++ CMakeFiles/make_crystal.dev.x.dir/configs.Make_Crystal.dev.cpp.o -o /DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/make_crystal.dev.x  ../../../lib/libconfigs.a ../../../lib/libcore.a 

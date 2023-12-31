@@ -29,11 +29,11 @@ void Unit_Test::assert_inner(bool result, std::string remarks)
 
     if(result)
     {
-        std::cout << "### PASSED ###   ";
+        std::cout << "\033[32m" << "### PASSED ###   " << "\033[37m";
     }
     else
     {
-        std::cout << "### FAILED ###   ";
+        std::cout << "\033[31m" << "### FAILED ###   " << "\033[37m";
     }
     
     std::cout << remarks << std::endl;

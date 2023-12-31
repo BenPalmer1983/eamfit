@@ -1,0 +1,4 @@
+1,### PASSED ###,Atom::get_label()
+1,### PASSED ###,Atom::get_position() Vec::get_x()
+1,### PASSED ###,Atom::get_position() Vec::get_y()
+1,### PASSED ###,Atom::get_position() Vec::get_z()

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/configs.Atom.units.x.dir/configs.Atom.units.cpp.o -o /DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/configs.Atom.units.x  ../../../lib/libtester.a ../../../lib/libconfigs.a ../../../lib/libcore.a 

@@ -1,2 +1,2 @@
-/usr/bin/ar qc /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libconfigs.a CMakeFiles/configs.dir/Atom.cpp.o CMakeFiles/configs.dir/Atom_Labels.cpp.o CMakeFiles/configs.dir/Config.cpp.o
+/usr/bin/ar qc /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libconfigs.a CMakeFiles/configs.dir/Atom.cpp.o CMakeFiles/configs.dir/Atom_Labels.cpp.o CMakeFiles/configs.dir/Config.cpp.o CMakeFiles/configs.dir/Make_Crystal.cpp.o
 /usr/bin/ranlib /DATA/disk3/cloud/Code/cpp/eamfit++/lib/libconfigs.a

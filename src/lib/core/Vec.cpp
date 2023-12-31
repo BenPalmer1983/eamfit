@@ -9,6 +9,7 @@
 /*****************************************************************************/
 
 // Constructor
+//#######################################
 
 Vec::Vec()
 {
@@ -22,6 +23,7 @@ Vec::Vec(double x, double y, double z)
 
 
 // Setters
+//#######################################
 
 void Vec::set_x(double x_in)
 {    
@@ -47,6 +49,7 @@ void Vec::set_xyz(double x_in, double y_in, double z_in)
 
 
 // Getters
+//#######################################
 
 double const Vec::get_x()
 {
@@ -63,7 +66,9 @@ double const Vec::get_z()
     return z;
 }
 
+
 // Display
+//#######################################
 
 void const Vec::display()
 {
@@ -120,6 +125,35 @@ double Vec::operator|(Vec& rhs)
     double dzsq = pow(Vec::get_z() - rhs.get_z(), 2);
     return sqrt(dxsq + dysq + dzsq);
 }
+
+
+Vec Vec::operator*(Vec& rhs)    // cross product
+{
+    Vec vec_result {};
+    vec_result.set_x(Vec::get_y() * rhs.get_z() - Vec::get_z() * rhs.get_y());
+    vec_result.set_y(Vec::get_z() * rhs.get_x() - Vec::get_x() * rhs.get_z());
+    vec_result.set_z(Vec::get_x() * rhs.get_y() - Vec::get_y() * rhs.get_x());
+    return vec_result;
+}
+
+
+double Vec::operator%(Vec& rhs)         // dot product
+{
+    double result = Vec::get_x() * rhs.get_x() + Vec::get_y() * rhs.get_y() + Vec::get_z() * rhs.get_z();
+    return result;
+}
+
+
+Vec Vec::operator*(double scalar)    //  scalar boost
+{
+    Vec vec_result {};
+    vec_result.set_x(Vec::get_x() * scalar);
+    vec_result.set_y(Vec::get_y() * scalar);
+    vec_result.set_z(Vec::get_z() * scalar);
+    return vec_result;
+}
+
+
 
 
 /*****************************************************************************/
