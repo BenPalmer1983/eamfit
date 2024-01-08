@@ -195,6 +195,19 @@ configs.Atom.units.x/fast:
 .PHONY : configs.Atom.units.x/fast
 
 #=============================================================================
+# Target rules for targets named configs.Config.units.x
+
+# Build rule for target.
+configs.Config.units.x: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 configs.Config.units.x
+.PHONY : configs.Config.units.x
+
+# fast build rule for target.
+configs.Config.units.x/fast:
+	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.Config.units.x.dir/build.make lib/configs/CMakeFiles/configs.Config.units.x.dir/build
+.PHONY : configs.Config.units.x/fast
+
+#=============================================================================
 # Target rules for targets named configs.Make_Crystal.units.x
 
 # Build rule for target.
@@ -207,6 +220,19 @@ configs.Make_Crystal.units.x/fast:
 	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/build.make lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/build
 .PHONY : configs.Make_Crystal.units.x/fast
 
+#=============================================================================
+# Target rules for targets named configs.Neighbour_List.units.x
+
+# Build rule for target.
+configs.Neighbour_List.units.x: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 configs.Neighbour_List.units.x
+.PHONY : configs.Neighbour_List.units.x
+
+# fast build rule for target.
+configs.Neighbour_List.units.x/fast:
+	$(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.Neighbour_List.units.x.dir/build.make lib/configs/CMakeFiles/configs.Neighbour_List.units.x.dir/build
+.PHONY : configs.Neighbour_List.units.x/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,7 +242,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... configs.Atom.units.x"
+	@echo "... configs.Config.units.x"
 	@echo "... configs.Make_Crystal.units.x"
+	@echo "... configs.Neighbour_List.units.x"
 	@echo "... configs.dev.x"
 	@echo "... core.Stringf.units.x"
 	@echo "... core.Vec.units.x"

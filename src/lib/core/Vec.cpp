@@ -51,42 +51,33 @@ void Vec::set_xyz(double x_in, double y_in, double z_in)
 // Getters
 //#######################################
 
-double const Vec::get_x()
+double Vec::get_x()
 {
-    return x;
+    return Vec::x;
 }
 
-double const Vec::get_y()
+double Vec::get_y()
 {
-    return y;
+    return Vec::y;
 }
 
-double const Vec::get_z()
+double Vec::get_z()
 {
-    return z;
+    return Vec::z;
 }
 
 
 // Display
 //#######################################
 
-void const Vec::display()
+void Vec::display()
 {
-    if(x < 0)
+    if(Vec::x < 0)
     {
         std::cout << "-";  
     }
-    std::cout << x << "i";
-    if(y < 0)
-    {
-        std::cout << "-";  
-    }
-    else
-    {
-        std::cout << "+";  
-    }
-    std::cout << abs(y) << "j";
-    if(z < 0)
+    std::cout << std::abs(Vec::x) << "i";
+    if(Vec::y < 0)
     {
         std::cout << "-";  
     }
@@ -94,8 +85,58 @@ void const Vec::display()
     {
         std::cout << "+";  
     }
-    std::cout << abs(z) << "k" << std::endl;
+    std::cout << std::abs(Vec::y) << "j";
+    if(Vec::z < 0)
+    {
+        std::cout << "-";  
+    }
+    else
+    {
+        std::cout << "+";  
+    }
+    std::cout << std::abs(Vec::z) << "k" << std::endl;
 }
+
+
+
+
+bool Vec::within_range(Vec a, double range)
+{
+    double rangesq = range * range;
+
+    double xd = Vec::get_x() - a.get_x();
+    double xdsq = xd * xd;
+
+    if(xdsq > rangesq)
+    {
+        return false;
+    }
+
+    double yd = Vec::get_y() - a.get_y();
+    double ydsq = yd * yd;
+
+    if(ydsq > rangesq)
+    {
+        return false;
+    }
+
+    double zd = Vec::get_z() - a.get_z();
+    double zdsq = zd * zd;
+
+    if(zdsq > rangesq)
+    {
+        return false;
+    }
+
+    if((xdsq + ydsq + zdsq) <= rangesq)
+    {
+        return true;
+    }
+    return false;
+
+}
+
+
 
 // Overload
 

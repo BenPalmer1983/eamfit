@@ -34,6 +34,7 @@ void Make_Crystal::make(Config & config, std::string crystal_type_in, std::vecto
         positions.push_back(atom_b);
     }
     
+    int uid = 0;
     for(int i=0; i<cx; i++)
     {
         for(int j=0; j<cy; j++)
@@ -43,7 +44,6 @@ void Make_Crystal::make(Config & config, std::string crystal_type_in, std::vecto
                 for(int n=0; n<positions.size(); n++)
                 {
                     std::string label = labels_in[n % labels_in.size()];
-                    std::cout << label << std::endl;
                     Vec atom_position = positions[n];
                     double x = (i + atom_position.get_x()) / cx;
                     double y = (j + atom_position.get_y()) / cy;
@@ -51,8 +51,11 @@ void Make_Crystal::make(Config & config, std::string crystal_type_in, std::vecto
                     atom_position.set_x(x);
                     atom_position.set_y(y);
                     atom_position.set_z(z);
-                    Atom new_atom {label, atom_position};
+                    Atom new_atom {label, atom_position};   // Label and position
+                    new_atom.set_uid(uid);              // Give atom a unique ID
                     config.add_atom(new_atom);
+
+                    uid = uid + 1;
                 }
             }        
         } 

@@ -40,8 +40,6 @@ target_sources(
 
 
 
-
-
 # configs.Atom.units.x
 #######################################################
 
@@ -65,6 +63,26 @@ target_sources(
 # configs.Make_Crystal.units.x
 #######################################################
 
+set(EXE "configs.Config.units.x")
+add_executable(${EXE})
+
+include_directories(${CMAKE_BINARY_DIR}/../src/lib)
+target_link_libraries(
+    ${EXE} 
+    ${CMAKE_BINARY_DIR}/../lib/libconfigs.a
+    ${CMAKE_BINARY_DIR}/../lib/libcore.a
+    ${CMAKE_BINARY_DIR}/../lib/libtester.a
+)
+
+target_sources(
+    ${EXE} PRIVATE
+    configs.Config.units.cpp
+)
+
+
+# configs.Make_Crystal.units.x
+#######################################################
+
 set(EXE "configs.Make_Crystal.units.x")
 add_executable(${EXE})
 
@@ -80,5 +98,27 @@ target_sources(
     ${EXE} PRIVATE
     configs.Make_Crystal.units.cpp
 )
+
+
+# configs.Make_Crystal.units.x
+#######################################################
+
+set(EXE "configs.Neighbour_List.units.x")
+add_executable(${EXE})
+
+include_directories(${CMAKE_BINARY_DIR}/../src/lib)
+target_link_libraries(
+    ${EXE} 
+    ${CMAKE_BINARY_DIR}/../lib/libconfigs.a
+    ${CMAKE_BINARY_DIR}/../lib/libcore.a
+    ${CMAKE_BINARY_DIR}/../lib/libtester.a
+)
+
+target_sources(
+    ${EXE} PRIVATE
+    configs.Neighbour_List.units.cpp
+)
+
+
 
 

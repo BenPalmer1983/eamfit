@@ -226,6 +226,30 @@ Make_Crystal.cpp.s:
 	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build && $(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.dir/build.make lib/configs/CMakeFiles/configs.dir/Make_Crystal.cpp.s
 .PHONY : Make_Crystal.cpp.s
 
+Neighbour_List.o: Neighbour_List.cpp.o
+.PHONY : Neighbour_List.o
+
+# target to build an object file
+Neighbour_List.cpp.o:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build && $(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.dir/build.make lib/configs/CMakeFiles/configs.dir/Neighbour_List.cpp.o
+.PHONY : Neighbour_List.cpp.o
+
+Neighbour_List.i: Neighbour_List.cpp.i
+.PHONY : Neighbour_List.i
+
+# target to preprocess a source file
+Neighbour_List.cpp.i:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build && $(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.dir/build.make lib/configs/CMakeFiles/configs.dir/Neighbour_List.cpp.i
+.PHONY : Neighbour_List.cpp.i
+
+Neighbour_List.s: Neighbour_List.cpp.s
+.PHONY : Neighbour_List.s
+
+# target to generate assembly for a file
+Neighbour_List.cpp.s:
+	cd /DATA/disk3/cloud/Code/cpp/eamfit++/build && $(MAKE) $(MAKESILENT) -f lib/configs/CMakeFiles/configs.dir/build.make lib/configs/CMakeFiles/configs.dir/Neighbour_List.cpp.s
+.PHONY : Neighbour_List.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -247,6 +271,9 @@ help:
 	@echo "... Make_Crystal.o"
 	@echo "... Make_Crystal.i"
 	@echo "... Make_Crystal.s"
+	@echo "... Neighbour_List.o"
+	@echo "... Neighbour_List.i"
+	@echo "... Neighbour_List.s"
 .PHONY : help
 
 

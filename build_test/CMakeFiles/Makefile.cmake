@@ -55,5 +55,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "lib/configs/CMakeFiles/configs.dev.x.dir/DependInfo.cmake"
   "lib/configs/CMakeFiles/make_crystal.dev.x.dir/DependInfo.cmake"
   "lib/configs/CMakeFiles/configs.Atom.units.x.dir/DependInfo.cmake"
+  "lib/configs/CMakeFiles/configs.Config.units.x.dir/DependInfo.cmake"
   "lib/configs/CMakeFiles/configs.Make_Crystal.units.x.dir/DependInfo.cmake"
+  "lib/configs/CMakeFiles/configs.Neighbour_List.units.x.dir/DependInfo.cmake"
   )

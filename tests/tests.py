@@ -59,7 +59,7 @@ class Tests:
         
         for file_name in file_list:
             if(file_name[-7:] == "units.x"):
-            	file_path = os.path.join(self.bindir, file_name);
+            	file_path = os.path.join(self.bindir, file_name)
             	if(os.path.isfile(file_path)):
                     self.test_bins.append(file_path)
                     self.log_files.append(file_name.replace(".x", ".log"))

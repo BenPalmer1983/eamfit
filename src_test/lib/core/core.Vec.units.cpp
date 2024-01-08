@@ -70,7 +70,7 @@ int main()
 
 
     scalar = -2.7;
-    f.set_xyz(5.3, -3.1, 2.87);
+    f.set_xyz(5.2, -3.1, 2.87);
     g.set_xyz(-3.1, -0.18, 1.88);
     rd = f | g;
     ut.assert(8.8541798, rd, 1.0e-6, "operator(|) distance");
@@ -84,6 +84,22 @@ int main()
     ut.assert(-14.04, scalarboost.get_x(), 1.0e-8, "operator(*) scalar boost");
     ut.assert(8.37, scalarboost.get_y(), 1.0e-8, "operator(*) scalar boost");
     ut.assert(-7.749, scalarboost.get_z(), 1.0e-8, "operator(*) scalar boost");
+
+    Vec pos_a {0.0, 0.0, 0.0};
+    Vec pos_b {4.0, 0.0, 0.0};
+    ut.assert(true, pos_a.within_range(pos_b, 5.0), "Vec::within_range");
+    ut.assert(true, pos_a.within_range(pos_b, 4.0), "Vec::within_range");
+    ut.assert(false, pos_a.within_range(pos_b, 3.9), "Vec::within_range");
+
+    // 10.44030651 apart
+    Vec pos_c {1.0, 2.0, 3.0};
+    Vec pos_d {7.0, 5.0, 11.0};
+    ut.assert(false, pos_c.within_range(pos_d, 4.0), "Vec::within_range");
+    ut.assert(false, pos_d.within_range(pos_c, 4.0), "Vec::within_range");
+    ut.assert(false, pos_c.within_range(pos_d, 10.44), "Vec::within_range");
+    ut.assert(false, pos_d.within_range(pos_c, 10.44), "Vec::within_range");
+    ut.assert(true, pos_c.within_range(pos_d, 10.45), "Vec::within_range");
+    ut.assert(true, pos_d.within_range(pos_c, 10.45), "Vec::within_range");
 
 
 

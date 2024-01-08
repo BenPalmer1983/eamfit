@@ -36,18 +36,21 @@ public:
     void set_z(double z);
     void set_xyz(double x, double y, double z);
 
-    double const get_x();
-    double const get_y();
-    double const get_z();
+    double get_x();
+    double get_y();
+    double get_z();
 
-    void const display();
+    void display();
 
+    bool within_range(Vec a, double range);
+    
     Vec operator+(Vec & rhs);
     Vec operator-(Vec & rhs);
     double operator|(Vec & rhs);       // distance
     Vec operator*(Vec & rhs);          // cross product
     double operator%(Vec & rhs);       // dot product
     Vec operator*(double scalar);      // scalar boost
+
     
 
 private:

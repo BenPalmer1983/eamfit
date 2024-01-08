@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/configs.Config.units.x.dir/configs.Config.units.cpp.o -o /DATA/disk3/cloud/Code/cpp/eamfit++/tests/bin/configs.Config.units.x  ../../../lib/libconfigs.a ../../../lib/libcore.a ../../../lib/libtester.a 

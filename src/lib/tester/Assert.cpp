@@ -56,7 +56,14 @@ bool Assert::assert(std::vector<int> expected, std::vector<int> found)
 
 bool Assert::assert(double expected, double found, double tolerance)
 {
-    double rd = abs(expected - found) / (0.5 * (expected + found));
+    if(expected == found)
+    {
+        return true;
+    }
+
+    double rd = std::abs(expected - found);
+
+    //std::cout << expected << "  " << found << "  " << rd << std::endl;
     if(rd < tolerance)
     {
         return true;

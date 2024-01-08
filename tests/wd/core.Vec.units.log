@@ -24,3 +24,12 @@
 1,### PASSED ###,operator(*) scalar boost
 1,### PASSED ###,operator(*) scalar boost
 1,### PASSED ###,operator(*) scalar boost
+1,### PASSED ###,Vec::within_range
+1,### PASSED ###,Vec::within_range
+1,### PASSED ###,Vec::within_range
+1,### PASSED ###,Vec::within_range
+1,### PASSED ###,Vec::within_range
+1,### PASSED ###,Vec::within_range
+1,### PASSED ###,Vec::within_range
+1,### PASSED ###,Vec::within_range
+1,### PASSED ###,Vec::within_range

@@ -214,9 +214,45 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
   /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Atom.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/c++/11/ctime \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc \
   /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/configs/Atom_Labels.h \
   /DATA/disk3/cloud/Code/cpp/eamfit++/src/lib/core/Stringf.h
 
+
+/usr/include/c++/11/sstream:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/array:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/c++/11/bits/locale_conv.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.h:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
@@ -239,6 +275,8 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/c++/11/bits/quoted_string.h:
 
 /usr/include/math.h:
 
@@ -309,6 +347,8 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
 /usr/include/wctype.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/c++/11/utility:
 
 /usr/include/errno.h:
 
@@ -416,6 +456,8 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
+/usr/include/c++/11/bits/unique_ptr.h:
+
 /usr/include/c++/11/ostream:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
@@ -462,6 +504,10 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
 
 /usr/include/c++/11/iosfwd:
 
+/usr/include/c++/11/bits/codecvt.h:
+
+/usr/include/c++/11/ctime:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
@@ -488,6 +534,8 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
 
 /usr/include/features-time64.h:
 
+/usr/include/c++/11/locale:
+
 /usr/include/linux/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
@@ -497,6 +545,8 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/c++/11/bits/postypes.h:
+
+/usr/include/c++/11/bits/invoke.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
@@ -511,6 +561,8 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/11/tuple:
 
 /usr/include/c++/11/type_traits:
 
@@ -578,6 +630,8 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
+/usr/include/libintl.h:
+
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
@@ -596,6 +650,8 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
 
 /usr/include/time.h:
 
+/usr/include/c++/11/bits/locale_facets_nonio.tcc:
+
 /usr/include/c++/11/bits/stl_pair.h:
 
 /usr/include/c++/11/ext/atomicity.h:
@@ -610,11 +666,15 @@ main/CMakeFiles/eamfit++.x.dir/main.cpp.o: /DATA/disk3/cloud/Code/cpp/eamfit++/s
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
+/usr/include/c++/11/iomanip:
+
 /usr/include/c++/11/ext/new_allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/c++/11/bits/sstream.tcc:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 

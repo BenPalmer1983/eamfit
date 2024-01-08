@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/configs.dir/Config.cpp.o.d"
   "CMakeFiles/configs.dir/Make_Crystal.cpp.o"
   "CMakeFiles/configs.dir/Make_Crystal.cpp.o.d"
+  "CMakeFiles/configs.dir/Neighbour_List.cpp.o"
+  "CMakeFiles/configs.dir/Neighbour_List.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
